@@ -1,0 +1,129 @@
+/* resetting rules  */
+img {
+  width: 100px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f0e2c5;
+}
+h1 {
+  font-family: "Playfair Display SC", serif;
+}
+
+/* header */
+header {
+  /* border: 2px solid #000;  */
+  color: #49281a;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding: 200px 0;
+}
+header h1 {
+  font-family: "Playfair Display SC", serif;
+  font-size: 3rem;
+}
+header p {
+  font-size: 1.2rem;
+  margin: 20px 0 40px;
+}
+header a {
+  background-color: #49281a;
+  color: #f0e2c5;
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding: 15px 50px;
+  border-radius: 9px;
+}
+
+/* nav section  */
+nav {
+  /* border: 2px solid #000;  */
+  background-color: #49281a;
+  text-align: center;
+  padding: 20px 0;
+  font-family: "Lato", sans-serif;
+}
+nav a {
+  /* border: 1px solid wheat;  */
+  color: #f0e2c5;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+/* our-menu section  */
+#our-menu,
+#about-us,
+#contact-us,
+#footer {
+  /* border: 2px solid #000;  */
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+  color: #49281a;
+}
+#our-menu h2,
+#about-us h2,
+#contact-us h2 {
+  font-family: "Playfair Display SC", serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* about-us section  */
+
+#about-us p,
+#contact-us p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 1.5;
+  padding: 10px 0;
+}
+
+/* contact-us section  */
+form {
+  font-family: "Lato", sans-serif;
+  /* border: 1px solid #000;  */
+  width: 80%;
+  margin: 10px auto;
+}
+form div {
+  /* border: 1px solid #000; s */
+  padding: 15px 0;
+}
+.form-label {
+  /* border: 1px solid #000;  */
+  display: inline-block;
+  margin-right: 20px;
+  width: 150px;
+  text-align: right;
+}
+.form-control {
+  background-color: #f0e2c5;
+  width: 350px;
+  border: none;
+  outline: none;
+  border-bottom: 1px dotted #49281a;
+}
+.btn {
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: #49281a;
+  color: #f0e2c5;
+  margin-left: 170px;
+  border-radius: 6px;
+}
+
+/* footer section */
+footer {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}

@@ -4,6 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="images/cafe shop.jpg" type="image/x-icon" />
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- external style  -->
+    <link rel="stylesheet" href="style.css" />
+
     <title>Serene Sips</title>
   </head>
   <body>
@@ -180,22 +192,28 @@
       <!-- contact form  -->
       <form action="">
         <div>
-          <label for="">Your Name</label>
-          <input type="your_name" name="" id="" />
+          <label for="" class="form-label">Your Name</label>
+          <input type="text" name="" id="" class="form-control" />
         </div>
 
         <div>
-          <label for="">Your Email</label>
-          <input type="email" name="" id="" required />
+          <label for="" class="form-label">Your Email</label>
+          <input type="text" name="" id="" required class="form-control" />
         </div>
 
         <div>
-          <label for="">Your Message</label>
-          <textarea name="" id="" rows="4" cols="20"></textarea>
+          <label for="" class="form-label">Your Message</label>
+          <textarea
+            name=""
+            id=""
+            class="form-control"
+            rows="4"
+            cols="20"
+          ></textarea>
         </div>
 
         <div>
-          <input type="submit" value="Send Message" />
+          <input type="submit" value="Send Message" class="btn" />
         </div>
       </form>
     </section>
