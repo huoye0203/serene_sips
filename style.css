@@ -29,6 +29,7 @@ header {
 header h1 {
   font-family: "Playfair Display SC", serif;
   font-size: 3.2rem;
+  text-shadow: 9px 3px 10px #b35441;
 }
 header p {
   font-size: 1.2rem;
@@ -77,6 +78,10 @@ nav a {
   margin-bottom: 20px;
 }
 
+#our-menu h3 {
+  font-family: "Playfair Display SC", serif;
+  font-size: 1.5rem;
+}
 .card-container {
   display: flex;
   gap: 20px;
