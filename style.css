@@ -51,6 +51,9 @@ nav {
   text-align: center;
   padding: 20px 0;
   font-family: "Lato", sans-serif;
+
+  position: sticky;
+  top: 0;
 }
 nav a {
   /* border: 1px solid wheat;  */
@@ -70,6 +73,7 @@ nav a {
   padding: 20px 0;
   color: #49281a;
 }
+
 #our-menu h2,
 #about-us h2,
 #contact-us h2 {
@@ -172,6 +176,11 @@ form div {
 footer {
   font-family: "Lato", sans-serif;
   text-align: center;
+}
+footer a {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 }
 
 .fa-square-caret-up {
