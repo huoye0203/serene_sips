@@ -36,6 +36,7 @@ header p {
   margin: 20px 0 40px;
 }
 header a {
+  display: inline-block;
   background-color: #49281a;
   color: #f0e2c5;
   font-size: 1.2rem;
@@ -101,11 +102,13 @@ nav a {
   padding: 5px;
   border-radius: 9px;
   display: block;
+  /* z-index: 1; */
 }
 .card-img-top {
   max-width: 100%;
   border-radius: 9px;
 }
+
 .card-body {
   text-align: center;
   padding-top: 15px;
@@ -113,7 +116,6 @@ nav a {
 .card-text {
   line-height: 1.5;
 }
-
 .price {
   font-weight: bold;
   font-style: italic;
