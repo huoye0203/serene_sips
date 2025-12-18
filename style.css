@@ -17,7 +17,8 @@ body {
 /* header */
 header {
   /* border: 2px solid #000; */
-  color: #49281a;
+  color: #fff;
+  /* color: #49281a; */
   font-family: "Lato", sans-serif;
   text-align: center;
   padding: 200px 0;
@@ -28,12 +29,15 @@ header {
 }
 header h1 {
   font-family: "Playfair Display SC", serif;
-  font-size: 3.2rem;
-  text-shadow: 9px 3px 10px #b35441;
+  font-size: 4.5rem;
+  /* text-shadow: 9px 3px 10px #b35441; */
+  /* text-shadow: 9px 3px 10px #000; */
+  text-shadow: 9px 3px 10px #49281a;
 }
 header p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin: 20px 0 40px;
+  text-shadow: 9px 3px 10px #49281a;
 }
 header a {
   display: inline-block;
